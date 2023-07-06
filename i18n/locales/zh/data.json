@@ -25,12 +25,12 @@
     "Service %s and %s do not match": "服务%s与%s不匹配"
   },
   "chat": {
-    "The chat type must be \\\"AI\\\"": "The chat type must be \\\"AI\\\"",
-    "The chat: %s is not found": "The chat: %s is not found",
-    "The message is invalid": "The message is invalid",
-    "The message: %s is not found": "The message: %s is not found",
-    "The provider: %s is invalid": "The provider: %s is invalid",
-    "The provider: %s is not found": "The provider: %s is not found"
+    "The chat type must be \\\"AI\\\"": "聊天类型必须是 \\\"AI\\\"",
+    "The chat: %s is not found": "聊天: %s 未找到",
+    "The message is invalid": "消息无效",
+    "The message: %s is not found": "消息: %s 未找到",
+    "The provider: %s is invalid": "提供商: %s 无效",
+    "The provider: %s is not found": "提供商: %s 未找到"
   },
   "check": {
     "Affiliation cannot be blank": "工作单位不可为空",
@@ -51,7 +51,7 @@
     "Phone number is invalid": "无效手机号",
     "Session outdated, please login again": "会话已过期，请重新登录",
     "The user is forbidden to sign in, please contact the administrator": "该用户被禁止登录，请联系管理员",
-    "The user: %s doesn't exist in LDAP server": "The user: %s doesn't exist in LDAP server",
+    "The user: %s doesn't exist in LDAP server": "用户: %s 在LDAP服务器中未找到",
     "The username may only contain alphanumeric characters, underlines or hyphens, cannot have consecutive hyphens or underlines, and cannot begin or end with a hyphen or underline.": "用户名只能包含字母数字字符、下划线或连字符，不能有连续的连字符或下划线，也不能以连字符或下划线开头或结尾",
     "Username already exists": "用户名已存在",
     "Username cannot be an email address": "用户名不可以是邮箱地址",
@@ -70,7 +70,7 @@
     "Please login first": "请先登录",
     "The user: %s doesn't exist": "用户: %s不存在",
     "don't support captchaProvider: ": "不支持验证码提供商: ",
-    "this operation is not allowed in demo mode": "this operation is not allowed in demo mode"
+    "this operation is not allowed in demo mode": "demo模式下不允许该操作"
   },
   "ldap": {
     "Ldap server exist": "LDAP服务器已存在"
